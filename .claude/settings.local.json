@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__notionApi__API-post-search",
+      "mcp__notionApi__API-get-block-children",
+      "Bash(python3:*)",
+      "Bash(grep:*)",
+      "mcp__github__get_me",
+      "mcp__github__create_repository",
+      "Bash(gh repo create:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "magic",
+    "context7",
+    "github"
+  ],
+  "disabledMcpjsonServers": [
+    "tosspayments-integration-guide",
+    "supabase",
+    "mysql",
+    "mcp_server_mysql",
+    "postgres",
+    "MongoDB"
+  ]
+}
